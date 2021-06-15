@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name                   = "treksdkios"
           #2.
-          s.version                = "0.0.1"
+          s.version                = "0.0.2"
           #3.  
           s.summary                = "AotterTrek SDK AdMob Mediation Objc for iOS developer."
           #4.
@@ -27,6 +27,8 @@ Pod::Spec.new do |s|
           s.vendored_frameworks    = "treksdkios.framework","OMSDK_Aotternet.xcframework"
           #10.
           s.swift_version          = '4.2'
+          #11.
+          s.dependency "GoogleAds-IMA-iOS-SDK", "3.14.3"
      
 
           s.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
