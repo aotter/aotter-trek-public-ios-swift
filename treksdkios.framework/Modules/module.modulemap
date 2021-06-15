@@ -1,0 +1,11 @@
+framework module treksdkios {
+  umbrella header "treksdkios.h"
+
+  export *
+  module * { export * }
+}
+
+module treksdkios.Swift {
+    header "treksdkios-Swift.h"
+    requires objc
+}
