@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
           #1.
           s.name                   = "treksdkios"
-          #2. 雙號支援 Google ads sdk v8
+          #2.
           s.version                = "0.0.1"
           #3.  
           s.summary                = "AotterTrek SDK AdMob Mediation Objc for iOS developer."
