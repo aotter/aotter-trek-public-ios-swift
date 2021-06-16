@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/treksdkios-Swift.h</key>
 		<data>
-		7ysblwcb7Htry2wrehitFcdS3xQ=
+		TW43njRKj7Ak0+UCACTCtKhVS/g=
 		</data>
 		<key>Headers/treksdkios.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		dr48eddZQb0L3bPZy09L4EsCOVQ=
+		7a8XZmWNRZnl4x/Rc+IING6jBDA=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		dr48eddZQb0L3bPZy09L4EsCOVQ=
+		7a8XZmWNRZnl4x/Rc+IING6jBDA=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VHbATBEnk3Yghp9nKn9AY7mjWII=
+		HmyBHkiJDqL1hhzNLOaj7murlrU=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		VHbATBEnk3Yghp9nKn9AY7mjWII=
+		HmyBHkiJDqL1hhzNLOaj7murlrU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vbpI67mRlPMJee8jJcZ/+sXZz6+OZljgS5j8063NoTU=
+			NAD74LYsi3lqdEc776CIQyExOq1kuAOAHviVq+G/Fm4=
 			</data>
 		</dict>
 		<key>Headers/treksdkios.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fw9oBM4ncnKmS+c4mQeGfvaM8TGMvmIeGEZrw8axV1I=
+			6E8/5uOLY+Wjkb+gQ0hoItKd5YFIprv3wUzOGfeDIZo=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fw9oBM4ncnKmS+c4mQeGfvaM8TGMvmIeGEZrw8axV1I=
+			6E8/5uOLY+Wjkb+gQ0hoItKd5YFIprv3wUzOGfeDIZo=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YDRa8O2wRMj4c0fKIbHIE7/VhHFjsYjaXU5RJtC4QhA=
+			eRc0C9/VrKMNnWbZ/akOdI47J7kUxUMWYhv/2L2Ivk0=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftdoc</key>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YDRa8O2wRMj4c0fKIbHIE7/VhHFjsYjaXU5RJtC4QhA=
+			eRc0C9/VrKMNnWbZ/akOdI47J7kUxUMWYhv/2L2Ivk0=
 			</data>
 		</dict>
 	</dict>

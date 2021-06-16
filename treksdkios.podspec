@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name                   = "treksdkios"
           #2.
-          s.version                = "0.0.2"
+          s.version                = "0.0.3"
           #3.  
           s.summary                = "AotterTrek SDK AdMob Mediation Objc for iOS developer."
           #4.

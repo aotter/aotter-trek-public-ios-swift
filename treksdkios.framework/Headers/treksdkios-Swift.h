@@ -310,7 +310,7 @@ SWIFT_CLASS("_TtC10treksdkios7Tracker")
 SWIFT_CLASS("_TtC10treksdkios6TrekAd")
 @interface TrekAd : NSObject
 @property (nonatomic, strong) id <TrekAdDelegate> _Nullable delegate;
-- (void)applyTrekAdWithPlacementName:(NSString * _Nonnull)placementName category:(NSString * _Nonnull)category completion:(void (^ _Nonnull)(TrekAdDataModel * _Nullable, TrekErrorModel * _Nullable))completion;
+- (void)applyTrekAdWithPlaceUid:(NSString * _Nonnull)placeUid category:(NSString * _Nonnull)category completion:(void (^ _Nonnull)(TrekAdDataModel * _Nullable, TrekErrorModel * _Nullable))completion;
 - (void)setUserDataWithUserModel:(UserModel * _Nonnull)userModel;
 - (void)setMetaWithMeta:(NSDictionary<NSString *, id> * _Nonnull)meta;
 - (void)registerNativeAdWithRegisterView:(UIView * _Nonnull)registerView;
