@@ -209,6 +209,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
+SWIFT_CLASS("_TtC10treksdkios10ActionType")
+@interface ActionType : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kReadPost;)
++ (NSString * _Nonnull)kReadPost SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kVisitPlace;)
++ (NSString * _Nonnull)kVisitPlace SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kPlayGame;)
++ (NSString * _Nonnull)kPlayGame SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kListenMusic;)
++ (NSString * _Nonnull)kListenMusic SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kWatchVideo;)
++ (NSString * _Nonnull)kWatchVideo SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kCallMerchant;)
++ (NSString * _Nonnull)kCallMerchant SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kBuyItem;)
++ (NSString * _Nonnull)kBuyItem SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kUNKNOWN;)
++ (NSString * _Nonnull)kUNKNOWN SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class Tracker;
 @class TrekAd;
 
@@ -233,6 +255,28 @@ SWIFT_CLASS("_TtC10treksdkios11EntityModel")
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull meta;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull tags;
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull categories;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10treksdkios10EntityType")
+@interface EntityType : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityPost;)
++ (NSString * _Nonnull)kEntityPost SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityPlace;)
++ (NSString * _Nonnull)kEntityPlace SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityGame;)
++ (NSString * _Nonnull)kEntityGame SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityMusic;)
++ (NSString * _Nonnull)kEntityMusic SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityVideo;)
++ (NSString * _Nonnull)kEntityVideo SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityMerchant;)
++ (NSString * _Nonnull)kEntityMerchant SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityItem;)
++ (NSString * _Nonnull)kEntityItem SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull kEntityUNKNOWN;)
++ (NSString * _Nonnull)kEntityUNKNOWN SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -309,15 +353,15 @@ SWIFT_CLASS("_TtC10treksdkios7Tracker")
 
 SWIFT_CLASS("_TtC10treksdkios6TrekAd")
 @interface TrekAd : NSObject
-@property (nonatomic, strong) id <TrekAdDelegate> _Nullable delegate;
+@property (nonatomic, weak) id <TrekAdDelegate> _Nullable delegate;
 - (void)applyTrekAdWithPlaceUid:(NSString * _Nonnull)placeUid category:(NSString * _Nonnull)category completion:(void (^ _Nonnull)(TrekAdDataModel * _Nullable, TrekErrorModel * _Nullable))completion;
 - (void)setUserDataWithUserModel:(UserModel * _Nonnull)userModel;
 - (void)setMetaWithMeta:(NSDictionary<NSString *, id> * _Nonnull)meta;
-- (void)registerNativeAdWithRegisterView:(UIView * _Nonnull)registerView;
+- (void)registerNativeAdWithRegisterView:(UIView * _Nonnull)registerView trekAdData:(TrekAdDataModel * _Nonnull)trekAdData;
 - (void)registerSuprAdWithRootViewController:(UIViewController * _Nonnull)rootViewController trekMediaView:(TrekMediaView * _Nonnull)trekMediaView trekAdData:(TrekAdDataModel * _Nonnull)trekAdData;
-- (void)destroy;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

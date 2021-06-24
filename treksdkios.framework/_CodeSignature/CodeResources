@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/treksdkios-Swift.h</key>
 		<data>
-		TW43njRKj7Ak0+UCACTCtKhVS/g=
+		svq2cbAYQ2iZrgOmU12DVW50W5w=
 		</data>
 		<key>Headers/treksdkios.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zRcSwfKuQZS4Ws169cZdwhg8CGA=
+		FYa0G3Y3Vbq6X/zaXKg0NgiX73E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		7a8XZmWNRZnl4x/Rc+IING6jBDA=
+		BmSsjRmjS28nn1ahzUcsND985UI=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		7a8XZmWNRZnl4x/Rc+IING6jBDA=
+		BmSsjRmjS28nn1ahzUcsND985UI=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HmyBHkiJDqL1hhzNLOaj7murlrU=
+		jA8Gn+X3l0I8dHM0Q2OqaDjD0S4=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		HmyBHkiJDqL1hhzNLOaj7murlrU=
+		jA8Gn+X3l0I8dHM0Q2OqaDjD0S4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NAD74LYsi3lqdEc776CIQyExOq1kuAOAHviVq+G/Fm4=
+			55GBCoREjJThq4F+cDPIO9vtrVBNuxm5FClGVnE5rwA=
 			</data>
 		</dict>
 		<key>Headers/treksdkios.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6E8/5uOLY+Wjkb+gQ0hoItKd5YFIprv3wUzOGfeDIZo=
+			72el1Mqz+kuip7LyEfic5d94au32x2rdiuH/4A+Lhwo=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6E8/5uOLY+Wjkb+gQ0hoItKd5YFIprv3wUzOGfeDIZo=
+			72el1Mqz+kuip7LyEfic5d94au32x2rdiuH/4A+Lhwo=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eRc0C9/VrKMNnWbZ/akOdI47J7kUxUMWYhv/2L2Ivk0=
+			FPk8h6I708Llaz7+VYVVL6fwN1lr3rsMgZ7ESh7MT24=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftdoc</key>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eRc0C9/VrKMNnWbZ/akOdI47J7kUxUMWYhv/2L2Ivk0=
+			FPk8h6I708Llaz7+VYVVL6fwN1lr3rsMgZ7ESh7MT24=
 			</data>
 		</dict>
 	</dict>
