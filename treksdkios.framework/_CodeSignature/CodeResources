@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9z2KHcDZMmZgD4JqLPGMq+yQwPE=
+		1tl+jUFKTQbg3tpv+gwJJ4O0jSs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		UFMH+NaLgRG05SxFT72oQ9z1PYU=
+		MNSLhU/ynf6SdPRVBdFHAS39aHo=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		UFMH+NaLgRG05SxFT72oQ9z1PYU=
+		MNSLhU/ynf6SdPRVBdFHAS39aHo=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jA8Gn+X3l0I8dHM0Q2OqaDjD0S4=
+		rNaNW1gbDX7WSNCP5iIXy3yHTbw=
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		jA8Gn+X3l0I8dHM0Q2OqaDjD0S4=
+		rNaNW1gbDX7WSNCP5iIXy3yHTbw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yo5g0jMLw8JGmBKsET0JES1pp8Lx3rmsB9wlr7q7u10=
+			L8Kwqv96yA4cDT4toHD9qBwoYDeTQLQFmZu+1nOpYMc=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yo5g0jMLw8JGmBKsET0JES1pp8Lx3rmsB9wlr7q7u10=
+			L8Kwqv96yA4cDT4toHD9qBwoYDeTQLQFmZu+1nOpYMc=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FPk8h6I708Llaz7+VYVVL6fwN1lr3rsMgZ7ESh7MT24=
+			dXtoRM9TO9d3+uEMK93JAjvczm+fFXM1+lVY0eJK1j0=
 			</data>
 		</dict>
 		<key>Modules/treksdkios.swiftmodule/arm64.swiftdoc</key>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FPk8h6I708Llaz7+VYVVL6fwN1lr3rsMgZ7ESh7MT24=
+			dXtoRM9TO9d3+uEMK93JAjvczm+fFXM1+lVY0eJK1j0=
 			</data>
 		</dict>
 	</dict>
